@@ -1,0 +1,32 @@
+[{
+    "name": "Andrés",
+    "surname": "Rondán",
+    "surname2":  "Mulero",
+    "avatar":  "/dist/assets/images/avatar.png",
+    "team": "Care Herramientas",
+    "invited": false
+},
+{
+    "name": "Pepito",
+    "surname": "Pulgarcito",
+    "surname2":  "Gromenawer",
+    "avatar":  "/dist/assets/images/avatar.png",
+    "team": "Care Herramientas",
+    "invited": false
+},
+{
+    "name": "Fistro",
+    "surname": "Torpedo",
+    "surname2":  "De la Pradera",
+    "avatar":  "/dist/assets/images/avatar.png",
+    "team": "Care Herramientas",
+    "invited": false
+},
+{
+    "name": "Juanito",
+    "surname": "Valderama",
+    "surname2":  "",
+    "avatar":  "/dist/assets/images/avatar.png",
+    "team": "Care Herramientas",
+    "invited": false
+}]

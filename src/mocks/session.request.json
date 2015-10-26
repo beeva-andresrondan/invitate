@@ -1,0 +1,21 @@
+[
+  {
+    "request": {
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "url": "^/session",
+      "method": "POST",
+      "post": "email=andres%40email.com&password=foo"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      },
+      "latency": 500,
+      "file": "src/mocks/session.fixtures.json"
+    }
+  }
+]

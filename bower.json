@@ -1,0 +1,15 @@
+{
+  "name": "workshop-emberjs",
+  "version": "1.0.0",
+  "description": "Aplicación de ejemplo para CARE-H",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés Rondán",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "ember": "~2.1.0"
+  }
+}

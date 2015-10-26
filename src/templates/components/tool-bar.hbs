@@ -1,0 +1,22 @@
+
+{{#link-to 'estado' tagName="div" classNames="btn-menu"}}
+  <div class="user_avatar text-center">
+    {{img-user-state user.state}}
+
+    <div class="name m20">{{user.name}} {{user.surname1}} {{user.surname2}}</div>
+  </div>
+{{/link-to}}
+<div class="btn-menu">
+
+</div>
+
+{{#link-to 'invitate' tagName="div" classNames="btn-menu text-center m40"}}
+
+  {{#if user.points}}
+    <div class="bubble">+{{user.points}}</div>
+  {{/if}}
+
+  <div class="icon-drink24 fs60"></div>
+  <p>Págate una</p>
+
+{{/link-to}}

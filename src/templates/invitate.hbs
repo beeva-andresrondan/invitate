@@ -1,0 +1,24 @@
+
+<div class="pagate-una m40" align="center">
+  <div class="row form-search">
+    <input type="text" class="form-control" placeholder="Buscar en otros scrums"/>
+  </div>
+  <div class="member-results m40">
+
+    {{#each members as |member|}}
+      <div class="item-result-member">
+        <div class="avatar">
+          <img src={{member.avatar}}>
+        </div>
+        <div class="member-info">
+          <p class="name">{{member.name}} {{member.surname}} {{member.surname2}}</p>
+          <p class="team">Care herramientas</p>
+        </div>
+        <div class="action">
+          <div class="icon-drink24"></div>
+        </div>
+      </div>
+    {{/each}}
+
+  </div>
+</div>
