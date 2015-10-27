@@ -5,6 +5,7 @@ App.Router.map(function() {
   this.route('test', { path: '/test' });
   this.route('invitate', { path: '/invitate' });
   this.route('estado', { path: '/estado' });
+  this.route('ajustes', { path: '/ajustes' });
 });
 
 
@@ -99,7 +100,7 @@ App.RESTResource = Ember.Object.extend({
       return this.promise;
     },
     then: function() {
-      
+
       this.promise.then.apply(this,arguments);
     }
 });
