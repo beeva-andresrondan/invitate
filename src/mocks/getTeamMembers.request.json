@@ -10,8 +10,7 @@
     "response": {
       "status": 200,
       "headers": {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
+        "Content-Type": "application/json"
       },
       "latency": 500,
       "file": "src/mocks/getMemberTeams.fixtures.json"
