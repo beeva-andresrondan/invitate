@@ -1,6 +1,10 @@
 App.InvitateController = Ember.Controller.extend({
 
-  init:function() {
-    
+  actions: {
+    point: function(member){
+
+        Ember.set(member, 'checked', true);
+        
+    }
   }
 });

@@ -6,7 +6,7 @@
   <div class="member-results m40">
 
     {{#each members as |member|}}
-      <div class="item-result-member">
+      <div class="item-result-member {{if member.checked 'disabled'}}">
         <div class="avatar">
           <img src={{member.avatar}}>
         </div>
@@ -14,8 +14,11 @@
           <p class="name">{{member.name}} {{member.surname}} {{member.surname2}}</p>
           <p class="team">Care herramientas</p>
         </div>
-        <div class="action">
+        <div class="action" {{action "point" member}}>
           <div class="icon-drink24"></div>
+        </div>
+        <div class="checked">
+          <div class="icon-ok3"></div>
         </div>
       </div>
     {{/each}}

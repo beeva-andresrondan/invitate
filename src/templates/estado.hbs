@@ -1,21 +1,21 @@
-<div class="state" align="center">
+<div class="state {{if estado 'up'}}" align="center">
 
     <div class="smileys">
-      <div class="smiley smiley_0">
+      <div class="smiley smiley_0 {{if smiley0Disabled 'disappear'}}" {{action "modificarEstado" 0}}>
         <img src="/dist/assets/images/smiley_triste.png"/>
       </div>
 
-      <div class="smiley smiley_1">
+      <div class="smiley smiley_1 {{if smiley1Disabled 'disappear'}}" {{action "modificarEstado" 1}}>
         <img src="/dist/assets/images/smiley_normal.png"/>
       </div>
 
-      <div class="smiley smiley_2">
+      <div class="smiley smiley_2 {{if smiley2Disabled 'disappear'}}" {{action "modificarEstado" 2}}>
         <img src="/dist/assets/images/logo.png"/>
       </div>
 
     </div>
     <div class="user_avatar">
-      <img src="/dist/assets/images/avatar.png"/>
+      <img {{action "modificarEstado" -1}} src="/dist/assets/images/avatar.png"/>
     </div>
     <!--div class="row m40 fs20">
       <span class="name">Pepito Pulgarcito Gromenawer</span>
